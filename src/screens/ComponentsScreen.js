@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 const ComponentsScreen = () => {
    return (
       <View>
-         <Text style={styles.componentsText}>Components Screen</Text>
+         <Text style={styles.componentsText}>Components Screen Wussap</Text>
       </View>
    )
 }

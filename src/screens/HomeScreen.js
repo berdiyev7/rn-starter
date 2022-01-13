@@ -1,10 +1,22 @@
 import React from 'react';
-import { Text, StyleSheet, View } from 'react-native';
+import { Text, StyleSheet, View, Button } from 'react-native';
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
    return (
       <View>
          <Text style={styles.text}>Wassup!</Text>
+         <Button
+            onPress={() => navigation.navigate('Components')}
+            title='Go to Components Demo'
+         />
+         <Button
+            onPress={() => navigation.navigate('List')}
+            title='Go to List Demo'
+         />
+         <Button
+            onPress={() => navigation.navigate('Image')}
+            title='Go to Image Demo'
+         />
       </View>
    );
 };
